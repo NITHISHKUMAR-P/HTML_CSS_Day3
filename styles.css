@@ -1,0 +1,117 @@
+body {
+    background-color: #e9ebee;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #444;
+    color: #fff;
+    padding: 1rem 2rem;
+}
+
+header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+    gap: 1rem;
+}
+
+header nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem;
+}
+
+header nav a:hover {
+    background-color: #555;
+    border-radius: 5px;
+}
+
+header .user-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+header .user-actions input {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+header .user-actions a {
+    padding: 0.5rem 1rem;
+    background-color: #ff4081;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+header .user-actions a.sign-in {
+    background-color: #444;
+}
+
+.intro {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    margin-bottom: 1rem;
+}
+
+.intro h1 {
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+}
+
+.intro a {
+    display: inline-block;
+    margin: 0.5rem;
+    padding: 0.5rem 1rem;
+    background-color: #ff4081;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.card {
+    background-color: #fff;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.card-details {
+    display: flex;
+    justify-content: space-between;
+    margin: 0.5rem 0;
+}
+
+.card-details span {
+    font-size: 0.9rem;
+    color: #555;
+}
+
+.card .author {
+    font-size: 1rem;
+    color: #333;
+    margin-top: 0.5rem;
+    font-weight: bold;
+}
